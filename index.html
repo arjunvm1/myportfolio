@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arjun Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Arjun V M</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">services</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">sanu santhosh</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="#services" onclick="toggleMenu()">services</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+
+    <div class="section__pic-container">
+      <img class="rounded" src="./assets/arjunpfpmodified.webp" alt="John Doe profile picture" />
+    </div>
+    <div class="section__text">
+      <br>
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Arjun</h1>
+      <p class="section__text__p2">FullStack web Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">
+          Download CV
+        </button>
+
+        <button class=" btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin-sn.webp" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/feed/'" />
+        <img src="./assets/github-sn.webp" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/arjunvm1'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <!-- <p class="section__text__p1">Get To Know More</p> -->
+    <h1 class="title">About Me</h1><br>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/arjunpfpmodified.webp" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience-sn.webp" alt="skill icon" class="icon" />
+            <h3>Skills</h3>
+            <p>html, css <br> JavaScript ,bootstrap</p>
+          </div>
+          <div class="details-container-2">
+            <img src="./assets/education-sn.webp" alt="Educatn icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Sc. Computer science</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            👋 Welcome to my coding journey! <br><br>
+
+            🌱 Enthusiastic Full Stack Development Student | 💡 Future Tech Trailblazer <br>
+
+
+            📚 Currently diving deep into the world of full stack development, I'm on a mission to transform ideas
+            into
+            impactful digital solutions. <br>
+
+            🖥️ Exploring front-end magic with: HTML, CSS, JavaScript, React <br>
+            💻 Delving into the server realm with: Node.js, Express <br>
+            🛢️ Unraveling the database puzzle with: MongoDB <br>
+            📝 Continuously documenting my learning through coding projects <br>
+
+            🚀 Join me as I tinker, code, and conquer the realm of web development. Let's learn and grow together!
+            <br><br>
+
+            🔗 Connect with me and explore my coding journey. Open to collaboration and eager to learn from fellow
+            developers. <br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Material UI</h3>
+                <p>basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express JS</h3>
+                <p>basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1><br>
+    <div class="experience-details-container-2">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/luminar-logo.webp" alt="Project 1" class="project-img1" />
+          </div>
+          <h2 class="experience-sub-title project-title">Luminar's Webpage</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.netlify.com/sites/luminarwebpagetask/overview'">
+              netlify
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://luminarwebpagetask.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/html5.webp" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">L.I.V.E</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.netlify.com/sites/tasklive'">
+              netlify
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://tasklive.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/travelblog.webp" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Travel Blog</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://app.netlify.com/sites/taskblog1/overview'">
+              netlify
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href=' https://taskblog1.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+
+
+
+
+
+
+
+  <!-- </section> -->
+  <section id="services">
+    <br>
+
+
+
+    <p class="section__text__p1">
+      <br><br> My
+    </p>
+    <h1 class="title">Services</h1><br>
+
+    <div class="experience-details-container-2">
+      <div class="about-containers">
+        <div class="details-container color-container">
+
+          <h2 class="experience-sub-title project-title">🖥️Fullstack Expertise</h2>
+          <p>As a fullstack developer, I specialize in both frontend and backend technologies. From crafting
+            stunning
+            user interfaces with HTML, CSS, and JavaScript, to designing robust server-side architecture using
+            languages
+            like Python, Java, or Node.js, I've got you covered at every step of development.</p>
+        </div>
+        <div class="details-container color-container">
+
+          <h2 class="experience-sub-title project-title">📝Custom Web Applications</h2>
+          <p> I pride myself on my ability to turn your unique ideas into functional web applications. Whether it's
+            an
+            e-commerce platform, a social networking site, or a business management tool, I have the skills and
+            experience to create tailor-made solutions that meet your specific requirements.</p>
+        </div>
+        <div class="details-container color-container">
+
+          <h2 class="experience-sub-title project-title">🚀Responsive Design</h2>
+          <p>In today's mobile-driven world, having a responsive website is essential. I ensure that your
+            applications
+            not only look great on desktops but also adapt seamlessly to various screen sizes, providing an optimal
+            user
+            experience across all devices..</p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <br><br><br> -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <br>
+    <div class="container">
+
+      <!-- <form id="form">
+        <input type=" text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea type="text" id="message" rows="4" placeholder="message"></textarea>
+        <br> <button type="submit" id="submit">submit</button>
+      </form> -->
+      <form action="assets/welcome.html" id="contact-form">
+        <!-- <h2 class="newfont" style="font-size: 40px;">Contact Me</h2><br> --><br>
+        <input type="text" placeholder=" Full Name" class="inputer" id="name" required
+          onkeydown="return /[a-zA-Z]/i.test(event.key)"><br>
+
+        <input type="email" placeholder=" Email Address" class="inputer" style="height: 50px;" id="email" required><br>
+        <textarea name="" id="message" cols="30" rows="10" placeholder=" Message" class="inputer"></textarea><br>
+        <input type="submit" class="btn btn-color-2">
+      </form>
+    </div>
+
+
+
+
+
+
+
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email-sn.webp" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">arjunvm628@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin-sn.webp" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/arjun-v-m-39111a28b/">LinkedIn</a></p>
+      </div>
+    </div>
+
+
+
+  </section>
+  <footer bg-primary>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links ">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <p>Copyright &#169; 2023 Arjun V M. All Rights Reserved.</p>
+  </footer>
+  <div class="footer-2">
+
+  </div>
+  <script src="script.js"></script>
+  <script src="index.js"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+
+
+
+</body>
+
+</html>
